@@ -64,6 +64,10 @@ main {
     .pokemon-todos {
         grid-template-columns:1fr 1fr;
     }
+    .gastoncode {
+        font-size: 1.5rem;
+        
+    }
 }
 
 @media screen and (min-width: 750px) {
@@ -91,7 +95,7 @@ main {
 }
 
 .gastoncode {
-    font-size: 1.5rem;
+    font-size: .5rem;
     font-weight: 600;
     text-transform: capitalize;
     color: var(--type-flying);
